@@ -1,0 +1,111 @@
+.qr-display {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.qr-display.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.placeholder {
+  color: #718096;
+}
+
+.placeholder-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.placeholder h3 {
+  margin-bottom: 0.5rem;
+  color: #2C3E50;
+}
+
+.placeholder p {
+  color: #718096;
+}
+
+.qr-header {
+  margin-bottom: 1.5rem;
+}
+
+.qr-header h3 {
+  color: #2C3E50;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.phone-number {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #3498DB;
+  word-break: break-all;
+}
+
+.qr-image-container {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.qr-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.qr-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.download-btn {
+  background: #27AE60;
+  color: white;
+}
+
+.download-btn:hover {
+  background: #219653;
+  transform: translateY(-1px);
+}
+
+.share-btn {
+  background: #95A5A6;
+  color: white;
+}
+
+.share-btn:hover {
+  background: #7F8C8D;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .qr-actions {
+    flex-direction: column;
+  }
+  
+  .action-btn {
+    width: 100%;
+  }
+}
