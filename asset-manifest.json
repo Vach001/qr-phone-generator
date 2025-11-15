@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/qr-phone-generator/static/css/main.cea689be.css",
-    "main.js": "/qr-phone-generator/static/js/main.b2b706e0.js",
+    "main.js": "/qr-phone-generator/static/js/main.4fa985bb.js",
     "index.html": "/qr-phone-generator/index.html",
     "main.cea689be.css.map": "/qr-phone-generator/static/css/main.cea689be.css.map",
-    "main.b2b706e0.js.map": "/qr-phone-generator/static/js/main.b2b706e0.js.map"
+    "main.4fa985bb.js.map": "/qr-phone-generator/static/js/main.4fa985bb.js.map"
   },
   "entrypoints": [
     "static/css/main.cea689be.css",
-    "static/js/main.b2b706e0.js"
+    "static/js/main.4fa985bb.js"
   ]
 }
