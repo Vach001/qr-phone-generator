@@ -1,0 +1,8 @@
+{
+  "short_name": "QR Generator",
+  "name": "QR Phone Number Generator",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
