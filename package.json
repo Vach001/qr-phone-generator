@@ -2,9 +2,12 @@
   "name": "qr-phone-generator",
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://vach001.github.io/qr-phone-generator",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
