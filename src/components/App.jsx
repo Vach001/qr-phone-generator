@@ -18,7 +18,7 @@ const App = () => {
       </main>
       
       <footer className="app-footer">
-        <p>&copy; 2024 QR Phone Generator. Professional QR Code Solution.</p>
+        <p>&copy; 2025 QR Phone Number Generator. Professional QR Code Solution.</p>
       </footer>
     </div>
   )
